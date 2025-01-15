@@ -3,7 +3,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 
-const Navbarcomp = () => {
+const Navbar = () => {
     return (
       <nav className="mb-20 flex iteams-center justify-between py-6">
         <div className="flex flex-shrink-0 items-center">
@@ -27,4 +27,4 @@ const Navbarcomp = () => {
     );    
 }
 
-export default Navbarcomp;
+export default Navbar;

@@ -1,7 +1,7 @@
 
 const Project = () => {
-    const  PROJECT = {""};
-  return (
+    const  PROJECT = "hii";
+return (
     <div className="border-b border-nuetral-900 pb-4">
         <h1 className="my-20 text-center text-4xl"></h1>
         <div>
@@ -17,9 +17,9 @@ const Project = () => {
                     />
                     </div>
                     <div className="w-full max-w-xl lg:w-34">
-                        <h6 className="mb-2 font-semibold"> {title}</h6>
+                        <h6 className="mb-2 font-semibold"> title</h6>
                         <p className="mb-4 text-neutral-500">
-                            {description}
+                            description
                         </p>
                         <span> tech</span>
                     </div>
@@ -27,7 +27,7 @@ const Project = () => {
             })}
         </div>
     </div>
-  )
+)
 }
 
-export default Project
+export default Project;
