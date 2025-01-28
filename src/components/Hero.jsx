@@ -1,6 +1,7 @@
 import imagemy from '../assets/my.jpg';
-import {motion } from 'framer-motion';
-{/*import profilepic from "../assets/kevinRushProfile.jpg";*/}
+import { motion } from "framer-motion";
+
+{/*import profilepic from "../assets/kevinRushProfile.jpg";*/}{/*import profilepic from "../assets/kevinRushProfile.jpg";*/}
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
   visible: {
